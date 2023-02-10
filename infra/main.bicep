@@ -8,7 +8,7 @@ param appName string
 param apiName string
 param insightName string
 param analyticsName string
-param location string = resourceGroup().location
+param location string 
 
 param serverName string
 param sqlAdministratorLogin string
